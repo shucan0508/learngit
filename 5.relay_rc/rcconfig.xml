@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RCConfigerFile Version="1.0">
+  <General>
+    
+    <!-- relay的超时时间 -->
+    <relayTimeout value="11"/>
+    <!-- 短链最大延时阈值-->
+    <shortLinkMaxDelay value="12222"/>
+    <!-- 短链最大丢包阈值-->
+    <shortLinkMaxLoss value="444"/>
+    <!-- 连接数过载阈值 单位百分之-->
+    <connOverloadRate value="43"/>
+    <!-- session过载阈值 单位百分之-->
+    <sessionOverloadRate value="88"/>
+    <!-- 探测过载阈值 单位百分之-->
+    <detectOverloadRate value="88"/>
+    <!-- 带宽过载阈值 单位百分之-->
+    <bandWidthOverloadRate value="88"/>
+    <!-- cpu过载阈值-->
+    <cpuOverloadRate value="98"/>
+    <!-- 内存过载阈值-->
+    <memOverloadRate value="88"/>
+    <!--日志根目录 -->
+    <logFileRootPath>d:\\RouterCenter\\DetectDataLog\\</logFileRootPath>
+    <!--数据根目录 -->
+    <dataFileRootPath>d:\\RouterCenter\\Data\\</dataFileRootPath>
+    
+    <!--索引目录 -->
+    <indexfileName>d:\\RouterCenter\\DetectDataLog\\info.txt</indexfileName>
+    <!--url前缀 -->
+    <url_prefix>http::\\10.130.36.10\\</url_prefix>
+
+    <!-- 数据dump到磁盘的周期 单位ms-->
+    <dumpDataFileInterval value="500000"/>
+
+    <!-- xxxx-->
+    <relayOverloadRate value="5j"/>
+  </General>
+  <!-- 依照目标user的usertype来查找相应策略，如果没有则使用m_defaultStrategyPara -->
+  <Strategies>
+    <!--默认策略值-->
+    <DefaultStrateDefine>
+      <!-- 丢包-->
+      <loss value="4"/>
+      <!-- 延时-->
+      <delay value="888"/>
+      <!-- 最大丢包-->
+      <Qmax_loss value="88"/>
+      <!-- 最大延时-->
+      <Qmax_delay value="55"/>
+      <!-- 路径价格-->
+      <P value="4544444"/>
+      <!-- 路径最高价格-->
+      <Pmax value="67878"/>
+      <!-- 是否中转放大-->
+      <bNeedTransitAmplifying value="false"/>
+      <!-- 是否完全搜索-->
+      <bFullSearch value="false"/>
+      <!-- 是否质量优先-->
+      <bQualityPriority value="false"/>
+      <!-- 最低路径个数-->
+      <minPathNum value="55588"/>
+      <!-- 最大跳数-->
+      <Hops value="67"/>
+      <!-- 超时时间-->
+      <timeout value="1000"/>
+    </DefaultStrateDefine>
+
+    <StrateDefine targetUseType ="0">
+      <!-- 丢包-->
+      <loss value="20"/>
+      <!-- 延时-->
+      <delay value="50"/>
+      <!-- 最大丢包-->
+      <Qmax_loss value="50"/>
+      <!-- 最大延时-->
+      <Qmax_delay value="100"/>
+      <!-- 路径价格-->
+      <P value="100"/>
+      <!-- 路径最高价格-->
+      <Pmax value="150"/>
+      <!-- 是否中转放大-->
+      <bNeedTransitAmplifying value="true"/>
+      <!-- 是否完全搜索-->
+      <bFullSearch value="true"/>
+      <!-- 是否质量优先-->
+      <bQualityPriority value="false"/>
+      <!-- 最低路径个数-->
+      <minPathNum value="5"/>
+      <!-- 最大跳数-->
+      <Hops value="2"/>
+      <!-- 超时时间-->
+      <timeout value="1000"/>
+    </StrateDefine>
+    <!--
+    <StrateDefine targetUseID ="1"></StrateDefine>
+    <StrateDefine targetUseID ="2"></StrateDefine>
+    -->
+  </Strategies>
+
+
+</RCConfigerFile> 
+  

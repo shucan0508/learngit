@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<RelayInfo>
+		<relay id="1">
+			<info maxconnect="1000" ip="58.65.239.252" port="10001"/>
+			<!--广东 电信-->
+			<payload curconnect="0"/>
+		</relay>
+		<relay id="11">
+			<info maxconnect="1000" ip="124.205.216.10" port="10011"/>
+			<payload curconnect="100"/>
+		</relay>
+		<relay id="2">
+			<info maxconnect="1000" ip="114.112.74.30" port="10002"/>
+			<!--北京 电信-->
+			<payload curconnect="0"/>
+		</relay>
+		<relay id="21">
+			<info maxconnect="1000" ip="124.205.216.21" port="10021"/>
+			<payload curconnect="0"/>
+		</relay>
+		<relay id="3">
+			<info maxconnect="1000" ip="210.51.168.120" port="10003"/>
+			<!--北京 联通-->
+			<payload curconnect="0"/>
+		</relay>
+		<relay id="4">
+			<info maxconnect="1000" ip="124.205.216.4" port="10004"/>
+			<!--北京 电信通-->
+			<payload curconnect="0"/>
+		</relay>
+		<relay id="41">
+			<info maxconnect="1000" ip="124.205.216.41" port="10041"/>
+			<payload curconnect="0"/>
+		</relay>
+		<relay id="5">
+			<info maxconnect="1000" ip="12.17.136.131" port="10005"/>
+			<!--美国 ATT用户-->
+			<payload curconnect="0"/>
+		</relay>
+		<relay id="1026">
+			<info maxconnect="1000" ip="124.205.216.6" port="10026"/>
+			<payload curconnect="0"/>
+		</relay>
+	</RelayInfo>
+	<!-- dir 0 表示上行，1 表示下行
+	<RR_ShortLink >
+		<r sr="1" dir="0" dr="2"/>
+		<r sr="1" dir="0" dr="3"/>
+		<r sr="1" dir="0" dr="4"/>
+		<r sr="2" dir="0" dr="3"/>
+		<r sr="2" dir="0" dr="4"/>
+		<r sr="2" dir="0" dr="1"/>
+		<r sr="4" dir="0" dr="1"/>
+		<r sr="4" dir="0" dr="2"/>
+		<r sr="4" dir="0" dr="3"/>
+	</RR_ShortLink >
+	<UR_ShortLink >
+		<u su="1000" dir="0" dr="1"/>
+		<u su="1000" dir="0" dr="2"/>
+		<u su="1001" dir="1" dr="1"/>
+		<u su="1001" dir="0" dr="1"/>
+		<u su="1002" dir="1" dr="1"/>
+		<u su="1003" dir="1" dr="1"/>
+		<u su="1001" dir="1" dr="2"/>
+		<u su="1002" dir="1" dr="2"/>
+		<u su="1003" dir="1" dr="3"/>
+	</UR_ShortLink>
+	-->
+</root>

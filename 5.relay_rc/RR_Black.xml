@@ -1,0 +1,16 @@
+<!--此配置文件用来R-R间的黑名单 其中upordown的数值表示上下行
+    0表示上下行都有，1表示上行，2表示下行
+	例如：
+	<RRBlack>
+             <SrcId>31</SrcId>
+		     <destId>3</destId>
+			 <upordown>1</upordown>
+	</RRBlack>
+	Relay:31 到 Relay:3 的上行是黑名单-->
+<config>
+	<RRBlack>
+             <SrcId></SrcId>
+		     <destId></destId>
+			 <upordown></upordown>
+	</RRBlack>
+</config>

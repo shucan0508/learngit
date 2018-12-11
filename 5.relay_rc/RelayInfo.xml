@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelayInfoFile Version="1.0">
+
+      <!-- maxInband-->
+      <maxInband value="200"/>
+      <!-- maxOutband-->
+      <maxOutband value="200"/>
+      <!-- 最大连接数-->
+      <maxConnectNum value="100"/>
+      <!-- 最大session-->
+      <maxSessionNum value="50"/>
+      <!-- 最大探测数-->
+      <maxDetectNum value="500"/>
+      <!-- 最大价格-->
+      <maxPrice value="500"/>
+
+
+
+      <!-- 最小in带宽-->
+      <minInband value="20"/>
+      <!-- 最小out带宽-->
+      <minOutband value="20"/>
+      <!-- 最小连接数-->
+      <minConnectNum value="0"/>
+      <!-- 最小sessi数-->
+      <minSessionNum value="0"/>
+      <!-- 最小探测数-->
+      <minDetectNum value="0"/>
+      <!-- 最低价格-->
+      <minPrice value="20"/>
+
+      <!-- maxLoadRate-->
+      <maxLoadRate value="20"/>
+      <!-- minLoadRate-->
+      <minLoadRate value="0"/>
+
+</RelayInfoFile> 
+  

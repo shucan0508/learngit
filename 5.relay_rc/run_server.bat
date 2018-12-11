@@ -1,0 +1,1 @@
+RouterCenter.exe 192.168.1.122 20001

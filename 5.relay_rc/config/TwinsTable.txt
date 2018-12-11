@@ -1,0 +1,7 @@
+{"twins_items":[{"enable":true,"relayID1":1,"relayID2":2},{"enable":true,"relayID1":3,"relayID2":4},{"enable":true,"relayID1":5,"relayID2":6},{"enable":true,"relayID1":7,"relayID2":8},{"enable":true,"relayID1":9,"relayID2":10},{"enable":true,"relayID1":11,"relayID2":12},{"enable":true,"relayID1":13,"relayID2":14},{"enable":true,"relayID1":15,"relayID2":16},{"enable":true,"relayID1":17,"relayID2":18},{"enable":true,"relayID1":19,"relayID2":20},{"enable":true,"relayID1":21,"relayID2":22},{"enable":true,"relayID1":23,"relayID2":24},{"enable":true,"relayID1":25,"relayID2":26},{"enable":true,"relayID1":27,"relayID2":28},
+{"enable":true,"relayID1":29,"relayID2":30},{"enable":true,"relayID1":31,"relayID2":32},
+{"enable":true,"relayID1":33,"relayID2":34},{"enable":true,"relayID1":35,"relayID2":36},
+{"enable":true,"relayID1":37,"relayID2":38},{"enable":true,"relayID1":39,"relayID2":40},
+{"enable":true,"relayID1":41,"relayID2":42},{"enable":true,"relayID1":43,"relayID2":44},
+{"enable":true,"relayID1":45,"relayID2":46},{"enable":true,"relayID1":47,"relayID2":48},
+{"enable":true,"relayID1":49,"relayID2":50},{"enable":true,"relayID1":51,"relayID2":52}]}
